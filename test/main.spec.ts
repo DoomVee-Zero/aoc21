@@ -1,4 +1,4 @@
-import { alpha, beta } from "@/main";
+// import { alpha, beta } from "@/main";
 import * as fs from "fs";
 
 let aocInput;
@@ -9,20 +9,21 @@ beforeAll(() => {
 });
 
 describe('Part One of Day X', () => {
-    it('should be Y', () => {
-        expect(alpha(sampleInput)).toBe(null);
-    });
-    test('aoc input', () => {
-        expect(alpha(aocInput)).toBe(null);
-    });
+    // it('should be Y', () => {
+    //     expect(alpha(sampleInput)).toBe(null);
+    // });
+    //
+    // test('aoc input', () => {
+    //     expect(alpha(aocInput)).toBe(null);
+    // });
 });
 
 describe('Part Two of Day X', () => {
-    it('should be Z', () => {
-        expect(beta(sampleInput)).toBe(null);
-    });
-
-    test('aoc input', () => {
-        expect(beta(aocInput)).toBe(null);
-    });
+    // it('should be Z', () => {
+    //     expect(beta(sampleInput)).toBe(null);
+    // });
+    //
+    // test('aoc input', () => {
+    //     expect(beta(aocInput)).toBe(null);
+    // });
 });
