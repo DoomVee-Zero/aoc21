@@ -1,4 +1,4 @@
-// import { alpha, beta } from "@/main";
+import { alpha, beta } from "@/main";
 import * as fs from "fs";
 
 let aocInput;
@@ -8,22 +8,22 @@ beforeAll(() => {
     sampleInput = fs.readFileSync('res/sample.txt', { encoding: 'utf-8' });
 });
 
-describe('Part One of Day X', () => {
-    // it('should be Y', () => {
-    //     expect(alpha(sampleInput)).toBe(null);
-    // });
-    //
-    // test('aoc input', () => {
-    //     expect(alpha(aocInput)).toBe(null);
-    // });
+describe('Part One of Day 6', () => {
+    it('should be 5934', () => {
+        expect(alpha(sampleInput)).toBe(5934);
+    });
+
+    test('aoc input', () => {
+        expect(alpha(aocInput)).toBe(393019);
+    });
 });
 
-describe('Part Two of Day X', () => {
-    // it('should be Z', () => {
-    //     expect(beta(sampleInput)).toBe(null);
-    // });
-    //
-    // test('aoc input', () => {
-    //     expect(beta(aocInput)).toBe(null);
-    // });
+describe('Part Two of Day 6', () => {
+    it('should be 26984457539', () => {
+        expect(beta(sampleInput)).toBe(26984457539);
+    });
+
+    test('aoc input', () => {
+        expect(beta(aocInput)).toBe(1757714216975);
+    });
 });
